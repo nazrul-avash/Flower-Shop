@@ -5,6 +5,11 @@
   font-weight: 400;
   font-style: normal;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .btn{
     background-color: #E55473;
     color: #FFFFFF;
