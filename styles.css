@@ -4,11 +4,13 @@
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 1em;
 }
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 .btn{
     background-color: #E55473;
@@ -16,9 +18,74 @@
     padding: 19px 31px;
     font-size: 1.25rem;
     font-weight: bold;
+    border-radius: 8px;
+    border: none;
 }
 .display-style{
     display: flex;
     margin-bottom: 128px;
 }
+.banner-container{
+    max-width: 1920px;
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    gap: 97px;
+     margin: 0 auto; 
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.banner-content {
+    max-width: 708px;
+    
+}
+.banner-container img{
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.banner-content h1{
+    font-size: 5em;
+    font-weight: 900;
+    color: #272727;
+    margin-bottom: 32px;
 
+}
+.banner-content p{
+    font-size: 1.1rem;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 32px;
+    
+}
+@media screen and (max-width: 768px) {
+    .banner-container img{
+        max-width: 100%;
+        
+    }
+    .banner-container h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .banner-container{
+        gap: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    }
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+    .banner-container img{
+        max-width: 100%;
+    }
+    .banner-container h1{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .banner-container{
+        gap: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    }
+    
