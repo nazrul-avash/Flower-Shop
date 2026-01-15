@@ -21,9 +21,8 @@
     border-radius: 8px;
     border: none;
 }
-.display-style{
-    display: flex;
-    margin-bottom: 128px;
+a{
+    text-decoration: none;
 }
 .banner-container{
     max-width: 1920px;
@@ -35,6 +34,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 50px;
+    margin-bottom: 128px;
 }
 .banner-content {
     max-width: 708px;
@@ -59,6 +59,170 @@
     margin-bottom: 32px;
     
 }
+#featured-flower{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center; 
+    margin-bottom: 132px; 
+}
+.featured-heading h2{
+    color: #272727;
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.featured-heading p{
+    font-size: 1.1rem;
+    color: rgba(39, 39, 39, 0.6);
+    margin:0 auto;
+    margin-bottom: 34px;
+}
+.featured-img{
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+    align-items: end;
+}
+.featured-img .img-wrapper{
+    width: 464px; 
+    height: 538px;
+    padding: 40px 40px 0 40px;
+    border-radius: 50% 50% 0 0;
+    margin-bottom: 50px;
+}
+.img-wrapper img{
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   margin-bottom: 20px;
+   
+}   
+
+.featured-img>div:nth-of-type(1){
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.featured-img>div:nth-of-type(2){
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.featured-img>div:nth-of-type(3){
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.img-wrapper a{
+    color:#272727;
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+}
+#services{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(39, 39, 39, 0.05);
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 87px 175px;
+    border-radius: 16px;
+    margin-bottom: 132px;
+
+}
+#offer{
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.56);
+    gap: 186px;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    margin-bottom: 132px;
+
+}
+.offer-content{
+    text-align: center;
+}
+.offer-content h3{
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 24px;
+}
+span{
+    color:red;
+}
+.offer-content p{
+    margin-bottom: 32px;
+}
+#services .services-imgs{
+    text-align: center;
+}
+#instagram{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 132px;
+    
+}
+.instagram-imgs{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+#instagram h2{
+    color: #272727;
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+#instagram p{
+    font-size: 1.1rem;
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    margin-bottom: 34px;
+}
+#deals{
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url('./Flower Asset/Rectangle 9.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 132px;
+    text-align: center;
+    padding: 142px 287px;
+}
+#deals h2{
+    color: #272727;
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 32px;
+    text-align: center;
+}
+#deals p{
+    font-size: 1.1rem;
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    margin-bottom: 34px;
+    padding-top: 20px;
+}
+
+.form {
+    display: flex;
+    gap: 20px;
+    max-width: 866px;
+    justify-content: center;
+
+}
+.form input{
+    border: none;
+    padding: 19px 31px;
+    border-radius: 8px;
+    width: 80%;
+}
+footer{
+    background-color: #272727;
+    padding: 40px 0;
+    text-align: center;
+    
+}
+/* responsive styles */
 @media screen and (max-width: 768px) {
     .banner-container img{
         max-width: 100%;
@@ -82,6 +246,8 @@
         text-align: center;
         font-size: 1.5rem;
     }
+
+    
     .banner-container{
         gap: 20px;
         padding: 10px;
